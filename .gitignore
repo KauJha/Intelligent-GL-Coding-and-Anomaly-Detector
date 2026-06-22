@@ -1,0 +1,19 @@
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Alembic
+alembic/versions/*.py
+
+# Misc
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
